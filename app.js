@@ -1,8 +1,9 @@
 // import functions and grab DOM elements
-
+import { answerList, randomIndx } from './answer.js';
 // initialize global state
-
+const answerText = document.getElementById('answer-text');
+const revealButton = document.getElementById('reveal-button');
 // set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+revealButton.addEventListener('click', () => {
+    answerText.textContent = answerList[randomIndx];
+});
