@@ -21,8 +21,6 @@ export const answerList = [
     'Very doubtful'
 ];
 
-const getRandomNum = (max) => {
+export const getRandomNum = (max) => {
     return Math.floor(Math.random() * max);
 };
-
-export const randomIndx = getRandomNum(answerList.length);
