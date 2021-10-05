@@ -1,4 +1,32 @@
-# Alchemy Bootstrap Template
+# Magic 8 Ball Plan
+
+### HTML Elements I need
+* Header
+    * Magic 8 Ball
+* Paragraph
+    * holds the answer given
+* Button
+    * to click to give an answer
+
+### What State do I need
+* answer
+* randomIdx
+
+### What Events am I listening for?
+* Button Click
+    * generate a random Index
+    * get the value of the answer
+    * display the answer on the page
+
+
+
+
+
+
+
+
+
+
 
 ## Making a plan
 
