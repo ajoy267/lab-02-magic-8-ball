@@ -2,10 +2,18 @@
     font-family: 'Akronim', cursive;
 }
 
+body {
+    background-image: url('../assets/magic-8-ball-image.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 header {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
+    color: #48cae4;
 }
 
 main {
@@ -17,18 +25,41 @@ main {
 h3 {
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    color: #48cae4;
 }
 
 input {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 35%;
+    height: 100px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 p {
     display: flex;
     justify-content: center;
+    font-size: 2rem;
+    color: #48cae4;
 }
 
 footer {
     display: flex;
     justify-content: center;
+}
+
+footer button {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 175px;
+}
+
+footer span {
+    font-size: 1.25rem;
+    padding-top: 15px;
 }
