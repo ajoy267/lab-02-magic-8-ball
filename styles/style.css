@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('../assets/magic-8-ball-image.jpeg');
+    background-image: url('../assets/background.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +13,8 @@ header {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
-    color: #48cae4;
+    color: purple;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 main {
@@ -25,9 +26,10 @@ main {
 h3 {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 50px;
-    color: #48cae4;
+    color: purple;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 input {
@@ -38,13 +40,22 @@ input {
     height: 100px;
     text-align: center;
     font-size: 1.5rem;
+    background: transparent;
+    color: purple;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+::placeholder {
+    color: purple;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 p {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    color: #48cae4;
+    color: purple;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 footer {
@@ -57,6 +68,9 @@ footer button {
     justify-content: center;
     height: 60px;
     width: 175px;
+    background: transparent;
+    color: purple;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 footer span {
